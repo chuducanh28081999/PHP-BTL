@@ -1,0 +1,12 @@
+create DATABASE qltd;
+
+create table nhanvien(
+    id  int(10) not null AUTO_INCREMENT,
+    name varchar(50) not null,
+    personCode int(9) not null,
+    address varchar(50) not null,
+    birthdate date not null,
+    PRIMARY KEY(id)
+);
+
+INSERT INTO `nhanvien`(`name`, `personCode`, `address`, `birthdate`) VALUES ("chu duc anh","122285978","ha Noi",2017-08-08);
